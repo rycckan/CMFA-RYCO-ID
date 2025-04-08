@@ -137,7 +137,6 @@ proxies:
       headers:
         Host: ryco.rycoabbs.my.id
     udp: true
-  - client-fingerprint: chrome
   - name: 8 FIRST CAGAYAN
     server: quiz.int.vidio.com
     port: 443
