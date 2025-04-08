@@ -32,7 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: 1 AMAZON
+  - name: 1AMAZON
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -47,7 +47,7 @@ proxies:
       headers:
         Host: ryco.rycoabbs.my.id
     udp: true
-  - name: 2 AKAMAI
+  - name: 2AKAMAI
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -62,7 +62,7 @@ proxies:
       headers:
         Host: ryco.rycoabbs.my.id
     udp: true
-  - name: 3 ALIBABA
+  - name: 3ALIBABA
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -77,7 +77,7 @@ proxies:
       headers:
         Host: ryco.rycoabbs.my.id
     udp: true
-  - name: 4 AMAZON
+  - name: 4AMAZON
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -92,7 +92,7 @@ proxies:
       headers:
         Host: ryco.rycoabbs.my.id
     udp: true
-  - name: 5 GOOGLE
+  - name: 5GOOGLE
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -107,7 +107,7 @@ proxies:
       headers:
         Host: ryco.rycoabbs.my.id
     udp: true
-  - name: 6 AKAMAI
+  - name: 6AKAMAI
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -122,7 +122,7 @@ proxies:
       headers:
         Host: ryco.rycoabbs.my.id
     udp: true
-  - name: 7 TELKOM
+  - name: 7TELKOM
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -137,7 +137,7 @@ proxies:
       headers:
         Host: ryco.rycoabbs.my.id
     udp: true
-  - name: 8 FIRST CAGAYAN
+  - name: 8FIRSTCAGAYAN
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -152,7 +152,7 @@ proxies:
       headers:
         Host: ryco.rycoabbs.my.id
     udp: true
-  - name: 9 FIRST CAGAYAN
+  - name: 9FIRSTCAGAYAN
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -174,30 +174,30 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 1 AMAZON
-      - 2 AKAMAI
-      - 3 ALIBABA
-      - 4 AMAZON
-      - 5 GOOGLE
-      - 6 AKAMAI
-      - 7 TELKOM
-      - 8 FIRST CAGAYAN
-      - 9 FIRST CAGAYAN
+      - 1AMAZON
+      - 2AKAMAI
+      - 3ALIBABA
+      - 4AMAZON
+      - 5GOOGLE
+      - 6AKAMAI
+      - 7TELKOM
+      - 8FIRSTCAGAYAN
+      - 9FIRSTCAGAYAN
 
   - name: MIX-X
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 1 AMAZON
-      - 2 AKAMAI
-      - 3 ALIBABA
-      - 4 AMAZON
-      - 5 GOOGLE
-      - 6 AKAMAI
-      - 7 TELKOM
-      - 8 FIRST CAGAYAN
-      - 9 FIRST CAGAYAN
+      - 1AMAZON
+      - 2AKAMAI
+      - 3ALIBABA
+      - 4AMAZON
+      - 5GOOGLE
+      - 6AKAMAI
+      - 7TELKOM
+      - 8FIRSTCAGAYAN
+      - 9FIRSTCAGAYAN
       
   - name: IKLAN
     type: select
