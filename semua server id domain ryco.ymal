@@ -76,7 +76,7 @@ proxies:
       name: "4 AMAZON"
       network: ws
       port: "443"
-      server: ryco.rycoabbs.my.id
+      server: img.email3.vidio.com
       servername: ryco.rycoabbs.my.id
       tls: true
       type: vless
