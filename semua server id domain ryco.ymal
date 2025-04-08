@@ -1,0 +1,212 @@
+allow-lan: true
+bind-address: '*'
+dns:
+    default-nameserver:
+        - 8.8.8.8
+        - 1.1.1.1
+    enable: true
+    enhanced-mode: redir-host
+    fallback:
+        - https://1.1.1.1/dns-query
+        - 8.8.8.8
+        - 1.1.1.1
+    ipv6: false
+    listen: 0.0.0.0:7874
+    nameserver:
+        - https://8.8.8.8/dns-query
+        - https://8.8.4.4/dns-query
+external-controller: 0.0.0.0:9090
+ipv6: false
+log-level: silent
+mixed-port: 7893
+mode: rule
+port: 7890
+profile:
+    store-selected: true
+proxies:
+    - client-fingerprint: chrome
+      name: "1 AMAZON"
+      network: ws
+      port: "443"
+      server: img.email3.vidio.com
+      servername: ryco.rycoabbs.my.id
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5b60ec76-debc-4f32-ba67-81b92a179014
+      ws-opts:
+        headers:
+            Host: ryco.rycoabbs.my.id
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+        path: /43.218.77.16-1443
+      xudp: true
+    - client-fingerprint: chrome
+      name: "2 AKAMAI"
+      network: ws
+      port: "443"
+      server: img.email3.vidio.com
+      servername: ryco.rycoabbs.my.id
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5b60ec76-debc-4f32-ba67-81b92a179014
+      ws-opts:
+        headers:
+            Host: ryco.rycoabbs.my.id
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+        path: /172.232.239.151-587
+      xudp: true
+    - client-fingerprint: chrome
+      name: "3 ALIBABA"
+      network: ws
+      port: "443"
+      server: img.email3.vidio.com
+      servername: ryco.rycoabbs.my.id
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5b60ec76-debc-4f32-ba67-81b92a179014
+      ws-opts:
+        headers:
+            Host: ryco.rycoabbs.my.id
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+        path: /8.215.196.18-587
+      xudp: true
+    - client-fingerprint: chrome
+      name: "4 AMAZON"
+      network: ws
+      port: "443"
+      server: ryco.rycoabbs.my.id
+      servername: ryco.rycoabbs.my.id
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5b60ec76-debc-4f32-ba67-81b92a179014
+      ws-opts:
+        headers:
+            Host: ryco.rycoabbs.my.id
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
+        path: /43.218.77.16-443
+      xudp: true
+    - client-fingerprint: chrome
+      name: "5 GOOGLE"
+      network: ws
+      port: "443"
+      server: img.email3.vidio.com
+      servername: ryco.rycoabbs.my.id
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5b60ec76-debc-4f32-ba67-81b92a179014
+      ws-opts:
+        headers:
+            Host: ryco.rycoabbs.my.id
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /35.219.15.90-443
+      xudp: true
+    - client-fingerprint: chrome
+      name: "6 AKAMAI"
+      network: ws
+      port: "443"
+      server: img.email3.vidio.com
+      servername: ryco.rycoabbs.my.id
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5b60ec76-debc-4f32-ba67-81b92a179014
+      ws-opts:
+        headers:
+            Host: ryco.rycoabbs.my.id
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+        path: /172.232.237.112-2053
+      xudp: true
+    - client-fingerprint: chrome
+      name: "7 TELKOM"
+      network: ws
+      port: "443"
+      server: img.email3.vidio.com
+      servername: ryco.rycoabbs.my.id
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5b60ec76-debc-4f32-ba67-81b92a179014
+      ws-opts:
+        headers:
+            Host: ryco.rycoabbs.my.id
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        path: /36.95.152.58-12137
+      xudp: true
+    - client-fingerprint: chrome
+      name: "8 FIRST CAGAYAN"
+      network: ws
+      port: "443"
+      server: img.email3.vidio.com
+      servername: ryco.rycoabbs.my.id
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5b60ec76-debc-4f32-ba67-81b92a179014
+      ws-opts:
+        headers:
+            Host: ryco.rycoabbs.my.id
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+        path: /203.194.112.119-8443
+      xudp: true
+    - client-fingerprint: chrome
+      name: "9 FIRST CAGAYAN"
+      network: ws
+      port: "443"
+      server: img.email3.vidio.com
+      servername: ryco.rycoabbs.my.id
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5b60ec76-debc-4f32-ba67-81b92a179014
+      ws-opts:
+        headers:
+            Host: ryco.rycoabbs.my.id
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /203.194.112.119-2053
+      xudp: true
+proxy-groups:
+    - name: Tunnel
+      proxies:
+        - Url Test
+        - Selector
+      type: select
+    - interval: 300
+      name: Url Test
+      proxies:
+        - "1 AMAZON"
+        - "2 AKAMAI"
+        - "3 ALIBABA"
+        - "4 AMAZON"
+        - "5 GOOGLE"
+        - "6 AKAMAI"
+        - "7 TELKOM"
+        - "8 FIRST CAGAYAN"
+        - "9 FIRST CAGAYAN"
+      type: url-test
+    - interval: 300
+      name: Selector
+      proxies:
+        - "1 AMAZON"
+        - "2 AKAMAI"
+        - "3 ALIBABA"
+        - "4 AMAZON"
+        - "5 GOOGLE"
+        - "6 AKAMAI"
+        - "7 TELKOM"
+        - "8 FIRST CAGAYAN"
+        - "9 FIRST CAGAYAN"
+      type: select
+redir-port: 7892
+rules:
+    - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
+    - AND,((NETWORK,UDP),(OR,((DST-PORT,443),(GEOSITE,youtube)))),REJECT
+    - GEOIP,PRIVATE,DIRECT,no-resolve
+    - MATCH,Tunnel
+secret: ""
+socks-port: 7891
+tproxy-port: 7895
+unified-delay: true
